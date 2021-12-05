@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(111, 105, 172);
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    justify-content: center;
+    color: rgb(202, 184, 255);
+}
+
+a {
+    color: rgb(0, 255, 240);
+}
+
+/* Bannière */ 
+
+.top {
+    height: 180px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px auto;
+    background-image: url(image/rose.gif);
+}
+
+.tptext {
+    color: rgb(111, 105, 172);
+    text-shadow: 0 15px 35px black;
+}
+
+.pp { 
+    top: 140px;
+    margin-left: -75px;
+    left: 50%;
+    position: absolute;
+}
+
+.photo-pp{
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.container {
+    width: 1040px;
+    text-align: center;
+    padding: 108px;
+    margin: 0 auto;
+}
+
+/* Première box */
+
+.card1 {
+    background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 50%), url(image/potoo.jpg);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 15px 35px rgba(23, 0, 85);
+    margin: 12px auto;
+    text-shadow: 0 15px 35px dark;
+}
+
+.btn-blue {
+    background-image: url(image/potoo.jpg);
+    color: white;
+    padding: 12px;
+    width: 120px;
+    border-raidus: 8px;
+}
+
+.btn-blue:hover {
+    color: white;
+    background: rgb(202, 184, 255);
+    border: solid 1px rrgb(202, 184, 255);
+    transition: 1.5s;
+}
+
+/* Deuxième box */
+
+.card2 {
+    background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 50%), url(image/street.gif);
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 15px 35px rgba(23, 0, 85);
+    margin: 12px auto;
+    text-shadow: 0 15px 35px dark;
+    color: rgb(0, 255, 240);
+}
+
+/* Troisième box */
+
+.card3 {
+    background-image: url(image/type.jpg);
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 15px 35px rgba(23, 0, 85);
+    margin: 12px auto;
+    text-shadow: 0 15px 35px dark;
+    color: rgb(202, 184, 255);
+    background-position: center;
+}
+
+/* Social média list */
+
+#social-media {
+    list-style: none;
+    padding: 0;
+}
+
+#social-media li {
+    display: inline;
+    font-size: 40px;
+}
+
+#social-media li :hover {
+    color: rgb(202, 184, 255);
+    transition: 0.5s;
+}
+
+
+.card-rs {
+    background-image: linear-gradient(-220deg, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0.12) 50%), url(image/b4.gif);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 15px 35px rgba(23, 0, 85);
+    margin: 12px auto;
+    text-shadow: 0 15px 35px dark;
+    color: rgb(0, 255, 240);
+    background-position: center;
+    background-size: cover;
+}
+
+/* media queries */
+
+@media(max-width: 900px){
+    .container {
+        width: 500px;
+    }
+}
+
+@media(max-width: 500px){
+    .container {
+        width: 280px;
+    }
+}
+
+
